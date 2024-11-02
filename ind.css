@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    position:relative;
+}
+
+ul{
+list-style: none;
+margin:0;
+padding:0;
+text-align: center;
+margin-top: 20px;
+}
+
+a{
+ text-decoration: none;
+ color: #FE8600;
+ }
+ 
+ .list{
+ border-bottom: 1px solid black;
+ }
+
+.container {
+    max-width: 600px;
+    margin: 70px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+.quote-container {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+#quote {
+    font-size: 24px;
+    font-style: italic;
+}
+
+h1{
+ color: blue;
+}
+
+.orange{
+ color:#FE8600;
+}
+
+.au{
+color: #C32A00;
+padding-left: 80px;
+}
+
+
+#share-btn, #fetch-quote-btn {
+    background-color: #FE8600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    }
+
+#share-btn:hover,#fetch-quote-btn:hover {
+    background-color: #C39183;
+}
+
+.button {
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+}
+
+
+
+
+/* Social media Share Buttons */
+
+.socialmedia-btn-container {
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  margin-top: 50px;
+  margin-left: 50px;
+   gap:15px;
+   align-self: center;
+}
+
+.socialmedia-btn-container a i {
+  font-size: 32px;
+}
+
+.socialmedia-btn-container a {
+  margin: 12px 0;
+  transition: 500ms;
+}
+
+.socialmedia-btn-container a:hover {
+  transform: scale(1.2);
+}
+
+.socialmedia-btn-container .fa-facebook {
+  color: #3b5998;
+}
+
+.socialmedia-btn-container .fa-twitter {
+  color: #1da1f2;
+}
+
+.socialmedia-btn-container .fa-linkedin {
+  color: #0077b5;
+}
+
+.socialmedia-btn-container .fa-pinterest {
+  color: #bd081c;
+}
+
+.socialmedia-btn-container .fa-whatsapp {
+  color: #25d366;
+}
+
+
+
+/* Landing page style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#FE8600;
+    color:black;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+color:black;
+}
+
+.hero {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 50px;
+    }
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: white;
+    color: #FE8600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    }
+
+.botton:hover{
+background-color:#C39183;
+}
+
+.benefits {
+    padding: 50px;
+    text-align: center;
+}
+
+.benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+@media (min-width: 435px) and (max-width: 2560px) {.socialmedia-btn-container{
+ left: 50%; 
+ transform: translateX(-50%);  
+    }
